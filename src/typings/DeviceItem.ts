@@ -9,6 +9,6 @@ export class DeviceItem extends TreeItem implements QuickPickItem {
     public iconPath: string;
     public command: Command;
     public readonly connectionState: string;
-    public readonly description: string
+    public readonly description: string;
     public contextValue: string;
 }
